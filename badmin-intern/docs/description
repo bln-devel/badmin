@@ -1,0 +1,48 @@
+modules:
+	documents browser
+	player management
+	membership
+	team management
+	results management/palmares
+	events management (tournaments, parties, ...)
+	forum
+	gallery
+	template manager
+	cms
+	
+Membership module
+	(CRUD)
+	define time slots and categories (compet, leasure, youngs)
+	sort by time slots and/or category (HTML/CSS/JS sortable table)
+	display nested information in columns
+	allow to edit like a spreadsheet software do (thanks to JS/Ajax)
+	add/remove
+	export (csv ? pdf, ods, xls, ...)
+	web site acount activation/deactivation
+	membership validation
+	following upon seasons
+	auto deactivation at season ends
+	creation according to well known members (just re membership them not create new one)
+	stats on seasons and players (number of players, max years without stops, ...
+
+Documents browser module
+	upload documents, remove documents
+	lists with <table> instead of <ul> column "controls", column last modified date and other useful columns
+	
+website front admin
+	website front is a code igniter app administred by badmin 
+	
+add controller and/or action for badmin configuration and badmin related stuff.
+
+provide a Auth API to module developper
+
+work on distinction between front module and back module (back = auth+ badmin theme)
+	gallery module -> front part + back part
+	website module -> meta module?
+		-> gallery module
+		-> article module
+		-> forum module
+		-> ...
+	<< front/back module is distinguished by the controller of the module itself. It choose to check auth or not
+	and the views to use (admin or front)
+	

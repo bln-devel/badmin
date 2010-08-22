@@ -1,0 +1,27 @@
+application specific "errors/*.php" -> is that views? can we use header_v.php and footer_v.php?
+	-> seems to be difficult (not expected behavior)
+
+Documentation as a LaTeX or openoffice document with style and template (think about automatic build through ANT)
+
+implements authentication
+	-> badmin is "just" an authentication entry point + plugin manager and displayer
+	
+
+
+
+refactor git (try to keep current history), find a way to insert this overall repository into eclipse/egit in order
+to minimize the console commands to run
+delete opatry acount on egit, use a badmin one. repository contains __CI_SYSTEM__, badmin, badmin-intern and
+modules when the packaging behavior will appear
+++-> doc HOWTO git (+eGit) + ssh + gitHub
+
+
+mootools (version + modules etc.)
+
+
+Class Module extends Controller -> set $data as tool.name, tool.*, module.name, ... + helper "pageTitle" or data[".."]
+define what is exactly a module
+	-> version, name, description, "dir" (root of views/models/controllers hierarchies), author, ...
+	-> use config files to do that (+ think to helper tool.*)
+	-> config/core/config.php, config/gallery/config.php ===> possible?
+is there a meta module idea? or plugin of module?

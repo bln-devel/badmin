@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+textarea {
+	width: 75%;
+	height: 300px;
+}
+
+textarea, .mooeditable-iframe { background: #fff; }

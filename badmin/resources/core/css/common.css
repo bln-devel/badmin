@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+
+body {
+	margin: 0;
+	padding: 20px;
+	font-size: 0.9em;
+	font-family: verdana, "DejaVu Sans", geneva, sans-serif;
+	background: #b8bcc1 -moz-linear-gradient(100% 100% 90deg, #b8bcc1, #878b8f) no-repeat;
+    background: #b8bcc1 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#878b8f), to(#b8bcc1)) no-repeat;
+}
+
+div#wrapper {
+	-moz-box-shadow: #8d9094 0 0 20px;
+	-webkit-box-shadow: #8d9094 0 0 20px;
+	background: #e5e5e5;
+	padding-bottom: 15px;
+}
+
+a, a:link {
+	color: #3d4d6d;
+	text-decoration: none;
+	border-bottom: 1px dotted #3d4d6d;
+}
+a:visited {
+	border-bottom-color: #3a3a3a;
+}
+a:active, a:focus, a:hover {
+}
+
+a.img,
+a img {
+	border: 0 none;
+}
+
+h1, h2, h3 {
+	font-family: helvetica, "Liberation Sans", FreeSans, sans-serif;
+}
+
+h1, h2 {
+	text-shadow: #aaa 1px 1px 2px;
+}
+
+h3 {
+	width: 75%;
+	padding: 5px .5em;
+	font-style: italic;
+	border-bottom: 1px solid #aaa;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid;
+}
+
+caption {
+	margin: .5em;
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+thead { border-bottom: 3px solid; }
+thead tr th {
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+}
+
+tr.even { background: #fefefe; }
+tr.odd { background: transparent; }
+
+td, th { border: 1px solid; padding: 5px; }
+
+div.error p {
+	color: #b40000;
+	text-indent: 22px;
+	background: url(../images/famfamfam/error.png) no-repeat 0 0;
+}
+
+label {
+	display: block;
+	font-style: italic;
+	font-size: .9em;
+	color: #555;
+	margin-top: .5em;
+}
+
+input.text {
+	border: 1px solid #aaa;
+	padding: 3px;
+}
+
+input.text, textarea, .mooeditable-iframe { background-color: #fff; }
+
+div#header {
+	height: 60px;
+	padding: 0;
+	padding-left: 15px;
+	background: #3d4d6d url(../images/header.png) repeat-x;
+}
+
+div#header h1 {
+	color: #b8bcc1;
+	text-shadow: #72767b 1px 1px 2px;
+	margin: 0; padding: 0;
+	line-height: 60px;
+	background: url(../images/header_right.png) no-repeat bottom right;
+}
+
+div#header h1 a { color: #b8bcc1; border: 0 none; }
+
+div#content-wrapper {
+	margin: 0 15px;
+}
+
+div#content {
+
+}
+
+div#content ul li {
+	list-style-image: url(../images/famfamfam/bullet_black.png);
+}
+
+div.clear {
+	height: 1px;
+	clear: both;
+}
+
+div#footer {
+	clear: both;
+}
+
+div#footer p {
+	font-size: 0.8em;
+	font-style: italic;
+	color: #555;
+	text-align: center;
+}

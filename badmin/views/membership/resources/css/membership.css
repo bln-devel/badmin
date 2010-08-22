@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+/*
+ * This style sheet defines styles specific to membership module.
+ */
+
+/* TODO ensure all styles are prefixed by .moduleName to avoid styles scoping for same intern CSS class */
+
+.check_ok,
+.check_ko {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.check_ok { color: #0a0; }
+.check_ko { color: #b40000; }
+
+table { font-size: .9em; }
+
+th.col_controls { width: 80px; }
+th.col_controls span { display: none; }
+
+tr.special { background: #f5f5b5; }
+tr.special td { padding: 2px; }
+tr.special input.text {
+	display: block;
+	border: 0 none;
+	background: #f5f5b5;
+	padding: 5px 3px;
+}
+tr.special a.date-picker-control { background-image: url(../../../../resources/core/images/famfamfam/date.png); }
+
+tr.special input.text:focus,
+tr.special input.text:active {
+	background: #fff;
+	margin: 0;
+}
+
+
+td.col_check {
+	text-align: center;
+}
+
+td.disabled {
+	background: #aaa;
+}
+
+td.col_date {
+	text-align: right;
+}
+

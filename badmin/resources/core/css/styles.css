@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+@import url(common.css);
+
+/*
+ * This style sheet defines most of the main default styles according to the badmin theme.
+ */
+
+div#wrapper {
+}
+
+h3 span.version { font-size: .7em; font-weight: normal; font-style: normal; }
+
+p.breadcrumb {
+	padding-left: 20px;
+	background: url(../images/famfamfam/house.png) no-repeat 0 0;
+}
+
+p.breadcrumb span.separator {
+	background: url(../images/famfamfam/arrow_right.png) no-repeat 50% 50%;
+	padding: 0 2px;
+}
+
+ul.fs a,
+table.fs a { border: 0 none; }
+table.fs { width: 70%; }
+table.fs, table.fs td { border: 1px solid #aaa; border-width: 1px 0; }
+td.resource_desc { width: 25px; }
+td.resource_control { width: 25px; }
+
+/* FIXME move in documents browser specific */
+div#content ul.fs li { list-style: none; }
+
+div.modules {
+	
+}
+
+div.module {
+	width: 46%;
+	margin: 15px 1%;
+	float: left;
+}
