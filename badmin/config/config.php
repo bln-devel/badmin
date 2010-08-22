@@ -11,7 +11,8 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://192.168.0.1/manager-project/";
+$config['base_url']	= "http://192.168.0.1/badmin/";
+//$config['base_url']	= "http://manager.badminton-laetitia-nantes.com/";
 
 /*
 |--------------------------------------------------------------------------

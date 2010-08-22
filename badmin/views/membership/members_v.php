@@ -67,14 +67,14 @@
 				<td class="col_date"><?= $member["birthdate"]; ?></td>
 				<td><?= $member["contact"]; ?></td>
 				<td><?= $member["timeslot"]; ?></td>
-				<td class="col_check"><span class="check_<?= $docOkStr; ?>"><img src="<?= base_url(); ?>/resources/core/images/famfamfam/<?= $docOkImg; ?>.png" alt="<?= $docOkStr; ?>"></span></td>
-				<td class="col_check"><span class="check_<?= $certifOkStr; ?>"><img src="<?= base_url(); ?>/resources/core/images/famfamfam/<?= $certifOkImg; ?>.png" alt="<?= $certifOkStr; ?>"></span></td>
-				<td class="col_check"><span class="check_<?= $payOkStr; ?>"><img src="<?= base_url(); ?>/resources/core/images/famfamfam/<?= $payOkImg; ?>.png" alt="<?= $payOkStr; ?>"></span></td>
-				<td class="col_check"><span class="check_<?= $validOkStr; ?>"><img src="<?= base_url(); ?>/resources/core/images/famfamfam/<?= $validOkImg; ?>.png" alt="<?= $validOkStr; ?>"></span></td>
+				<td class="col_check"><span class="check_<?= $docOkStr; ?>"><img src="<?= base_url(); ?>/resources/famfamfam/<?= $docOkImg; ?>.png" alt="<?= $docOkStr; ?>"></span></td>
+				<td class="col_check"><span class="check_<?= $certifOkStr; ?>"><img src="<?= base_url(); ?>/resources/famfamfam/<?= $certifOkImg; ?>.png" alt="<?= $certifOkStr; ?>"></span></td>
+				<td class="col_check"><span class="check_<?= $payOkStr; ?>"><img src="<?= base_url(); ?>/resources/famfamfam/<?= $payOkImg; ?>.png" alt="<?= $payOkStr; ?>"></span></td>
+				<td class="col_check"><span class="check_<?= $validOkStr; ?>"><img src="<?= base_url(); ?>/resources/famfamfam/<?= $validOkImg; ?>.png" alt="<?= $validOkStr; ?>"></span></td>
 				<td class="col_date"><?= $member["date"]; ?></td>
 				<td>
-					<a href="<?= site_url("TODO") ?>" class="img"><img src="<?= base_url(); ?>/resources/core/images/famfamfam/user_edit.png" alt="Edit" title="Edit"></a>
-					<a href="<?= site_url("TODO") ?>" class="img"><img src="<?= base_url(); ?>/resources/core/images/famfamfam/user_delete.png" alt="Delete" title="Delete"></a>
+					<a href="<?= site_url("TODO") ?>" class="img"><img src="<?= base_url(); ?>/resources/famfamfam/user_edit.png" alt="Edit" title="Edit"></a>
+					<a href="<?= site_url("TODO") ?>" class="img"><img src="<?= base_url(); ?>/resources/famfamfam/user_delete.png" alt="Delete" title="Delete"></a>
 				</td>
 			</tr>
 			<?php endforeach; ?>
@@ -98,7 +98,7 @@
 				<td class="disabled"></td>
 				<td><input type="text" class="text date w8em format-d-m-y highlight-days-67 no-transparency" id="f_date" name="f_date" value="<?= date("d/m/Y")?>"></td>
 				<td>
-					<input type="image" name="add_user" src="<?= base_url()?>/resources/core/images/famfamfam/user_add.png" alt="Add" title="Add">
+					<input type="image" name="add_user" src="<?= base_url()?>/resources/famfamfam/user_add.png" alt="Add" title="Add">
 				</td>
 			</tr>
 			</form>

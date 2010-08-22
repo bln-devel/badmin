@@ -15,5 +15,5 @@ input#f_pwd {
 	padding-left: 22px;
 }
 
-input#f_login { background: #fff url(../images/famfamfam/user.png) no-repeat 2px 50%; }
-input#f_pwd { background: #fff url(../images/famfamfam/key.png) no-repeat 2px 50%; }
+input#f_login { background: #fff url(../../famfamfam/user.png) no-repeat 2px 50%; }
+input#f_pwd { background: #fff url(../../famfamfam/key.png) no-repeat 2px 50%; }

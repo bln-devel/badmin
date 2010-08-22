@@ -58,22 +58,22 @@ caption {
 	font-style: italic;
 }
 
-thead { border-bottom: 3px solid; }
+thead { background: #fff; border-bottom: 3px solid; }
 thead tr th {
 	font-weight: bold;
 	text-align: center;
 	font-style: italic;
 }
 
-tr.even { background: #fefefe; }
-tr.odd { background: transparent; }
+tr.even { background: transparent; }
+tr.odd { background: #fefefe; }
 
 td, th { border: 1px solid; padding: 5px; }
 
 div.error p {
 	color: #b40000;
 	text-indent: 22px;
-	background: url(../images/famfamfam/error.png) no-repeat 0 0;
+	background: url(../../famfamfam/error.png) no-repeat 0 0;
 }
 
 label {
@@ -109,7 +109,7 @@ div#header h1 {
 div#header h1 a { color: #b8bcc1; border: 0 none; }
 
 div#content-wrapper {
-	margin: 0 15px;
+	margin: 15px;
 }
 
 div#content {
@@ -117,7 +117,7 @@ div#content {
 }
 
 div#content ul li {
-	list-style-image: url(../images/famfamfam/bullet_black.png);
+	list-style-image: url(../../famfamfam/bullet_black.png);
 }
 
 div.clear {

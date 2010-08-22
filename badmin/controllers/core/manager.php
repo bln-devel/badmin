@@ -16,15 +16,17 @@ class Manager extends MGR_Controller {
 		
 		//TODO retrieve all available modules and list them on home (title + desc + link to module home)
 		$modules = array(
-		array(	"name"=>"Document Browser",
-				"desc"=>"The document browser module allow you to recursively browse
-				a specified directory and to download contained files.",
+		array(	"name"=>"Document Browser [NLS]",
+				"desc"=>"...",
 				"ctrl"=>"documents/browser",
 				"version"=>"0.2"),
-		array(	"name"=>"Membership",
-				"desc"=>"The membership module allow you to manage the player registration according
-				to time slots.",
+		array(	"name"=>"Membership [NLS]",
+				"desc"=>"...",
 				"ctrl"=>"membership/manage",
+				"version"=>"0.1"),
+		array(	"name"=>"Poona [NLS]",
+				"desc"=>"...",
+				"ctrl"=>"poona/poona",
 				"version"=>"0.1"),
 //		array(	"name"=>"Content Management System",
 //				"desc"=>"CMS, as its name indicates, is a module used to manage content (articles, news, ...)",

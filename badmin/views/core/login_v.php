@@ -12,7 +12,7 @@ $toolVersion = $this->config->item("tool.version");
 	<link href="<?= base_url() ?>resources/core/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	
 	<link rel="stylesheet" type="text/css" media="screen" href="<?= base_url() ?>resources/core/css/login.css" />
-	<script type="text/javascript" src="<?= base_url() ?>resources/core/js/mootools-1.2.4-core-yc.js"></script>
+	<script type="text/javascript" src="<?= base_url() ?>resources/mootools-1.2.4-core-yc.js"></script>
 	
 </head>
 <body>
@@ -44,7 +44,7 @@ $toolVersion = $this->config->item("tool.version");
     		<input type="hidden" name="come_from" value="<?= $come_from; ?>" />
     		<div><label for="f_login">Login</label> <input type="text" class="text" id="f_login" name="f_login" value="<?= $f_login; ?>"></div>
     		<div><label for="f_pwd">Password</label> <input type="password" class="text" id="f_pwd" name="f_pwd">
-    		<input type="image" id="f_connect" name="f_connect" src="<?= base_url(); ?>resources/core/images/famfamfam/connect.png">
+    		<input type="image" id="f_connect" name="f_connect" src="<?= base_url(); ?>resources/famfamfam/connect.png">
     		</div>
     	</form>
     	<?php

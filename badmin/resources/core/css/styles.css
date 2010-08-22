@@ -12,11 +12,11 @@ h3 span.version { font-size: .7em; font-weight: normal; font-style: normal; }
 
 p.breadcrumb {
 	padding-left: 20px;
-	background: url(../images/famfamfam/house.png) no-repeat 0 0;
+	background: url(../../famfamfam/house.png) no-repeat 0 0;
 }
 
 p.breadcrumb span.separator {
-	background: url(../images/famfamfam/arrow_right.png) no-repeat 50% 50%;
+	background: url(../../famfamfam/arrow_right.png) no-repeat 50% 50%;
 	padding: 0 2px;
 }
 

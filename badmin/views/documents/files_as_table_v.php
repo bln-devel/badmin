@@ -57,12 +57,12 @@ function format_size($size) {
 			}
 		?>
 		<tr class="<?= $parity; ?>">
-			<td class="resource_control"><a href="<?= site_url("/documents/upload/remove/".$resource); ?>" class="img"><img src="<?= base_url() ?>/resources/core/images/famfamfam/<?= $kind_of_delete; ?>.png" alt="Delete" title="Delete"></a>
+			<td class="resource_control"><a href="<?= site_url("/documents/upload/remove/".$resource); ?>" class="img"><img src="<?= base_url() ?>/resources/famfamfam/<?= $kind_of_delete; ?>.png" alt="Delete" title="Delete"></a>
 			<?php if($type == "dirs" && $dl_as_zip_available):?>
-				<img src="<?= base_url() ?>/resources/core/images/famfamfam/folder_go.png" alt="Download zip" title="Download zip">
+				<img src="<?= base_url() ?>/resources/famfamfam/folder_go.png" alt="Download zip" title="Download zip">
 			<?php endif; ?>
 			</td>
-			<td class="resource_desc"><img src="<?= base_url() ?>/resources/core/images/famfamfam/<?= $icon ?>.png" alt="<?= $alt; ?>"></td>
+			<td class="resource_desc"><img src="<?= base_url() ?>/resources/famfamfam/<?= $icon ?>.png" alt="<?= $alt; ?>"></td>
 			<td><?= anchor(site_url("documents/browser/".$resource), $resource_name, array("title"=>$title)); ?></td>
 			<td>
 			<?php

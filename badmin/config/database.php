@@ -34,7 +34,8 @@
 | the active record class
 */
 
-$active_group = "default";
+$active_group = "local";
+//$active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = "localhost";
@@ -49,6 +50,19 @@ $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = "";
 $db['default']['char_set'] = "utf8";
 $db['default']['dbcollat'] = "utf8_general_ci";
+
+$db['local']['hostname'] = "localhost";
+$db['local']['username'] = "root";
+$db['local']['password'] = "Obeb0p85";
+$db['local']['database'] = "bln_manager";
+$db['local']['dbdriver'] = "mysql";
+$db['local']['dbprefix'] = "mgr_";
+$db['local']['pconnect'] = TRUE;
+$db['local']['db_debug'] = TRUE;
+$db['local']['cache_on'] = FALSE;
+$db['local']['cachedir'] = "";
+$db['local']['char_set'] = "utf8";
+$db['local']['dbcollat'] = "utf8_general_ci";
 
 
 /* End of file database.php */

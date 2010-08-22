@@ -60,7 +60,7 @@ h3 {
 div.error p {
 	color: #b40000;
 	text-indent: 22px;
-	background: url(../images/famfamfam/error.png) no-repeat 0 0;
+	background: url(../famfamfam/error.png) no-repeat 0 0;
 }
 
 label {
