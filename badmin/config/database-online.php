@@ -37,9 +37,9 @@
 $active_group = "default";
 $active_record = TRUE;
 
-$db['default']['hostname'] = "localhost";
-$db['default']['username'] = "bln";
-$db['default']['password'] = "w3blnx";
+$db['default']['hostname'] = "192.168.0.1";
+$db['default']['username'] = "root";
+$db['default']['password'] = "Obeb0p85";
 $db['default']['database'] = "bln_manager";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "mgr_";
